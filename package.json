@@ -1,0 +1,20 @@
+{
+  "name": "expense-manager-backend",
+  "version": "1.0.0",
+  "description": "Expense Manager backend used in LWC OSS frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Salesforce troop",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsforce": "^1.11.1",
+    "node-localstorage": "^3.0.5"
+  }
+}
